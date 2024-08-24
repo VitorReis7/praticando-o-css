@@ -1,7 +1,21 @@
 body {
     background-color: rgb(255, 255, 255);
+    font-family: Arial, 'Times New Roman', sans-serif;
 }
 
 .nome-titulo {
-    font-size: 20px;
+    font-size: 70px;
+    color: rgb(49, 49, 49);
+}
+
+.imagem-formato {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#camera {
+    width: 200px;
+    height: 200px;
 }
