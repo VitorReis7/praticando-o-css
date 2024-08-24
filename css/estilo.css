@@ -22,7 +22,11 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   text-decoration: underline;
-  margin: 40px 0 20px 0;
+  margin: 50px 0 20px 0;
+}
+
+.descricao-filme{
+  font-size: 20px;
 }
 
 .imagem-formato {
@@ -32,7 +36,10 @@ body {
   max-height: 600px;
 }
 
-
+.imagem-catalogo{
+  margin:15px;
+  height:100px;
+}
 
 #camera {
   width: 400px;
@@ -47,7 +54,7 @@ body {
 .button {
   display:block;
   color: #FFF;
-  background-color: #5995DA;
+  background-color: #868686;
   font-weight: bold;
   padding: 20px;
   text-align: center;
@@ -57,11 +64,13 @@ body {
 
   width: 200px;
   margin: 20px auto;
+
+  font-family:Tahoma, sans-serif;
 }
 
 .button:hover {
   background-color: #FFF;
-  color: #5995DA;
+  color: #868686;
   text-decoration: underline;
 }
 
