@@ -14,14 +14,17 @@ body {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   color: rgb(49, 49, 49);
+  text-align: center;
 }
 
 .nome-filme {
-  font-size: 50px;
+  font-size: 45px;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
   text-decoration: underline;
+  margin: 40px 0 20px 0;
 }
+
 .imagem-formato {
   min-width: 100px;
   min-height: 100px;
@@ -77,4 +80,8 @@ body {
   background-color: #ededed;
   text-align: left;
 
+}
+
+hr {
+  border: 2px dashed gray;
 }
