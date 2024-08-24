@@ -10,6 +10,12 @@ body {
     color: rgb(49, 49, 49);
 }
 
+.nome-filme {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: underline;
+}
 .imagem-formato {
     min-width: 100px;
     min-height: 100px;
@@ -40,4 +46,10 @@ body {
     background-color: #FFF;
     color: #5995DA;
     text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+    background-color: lightgray;
+
   }
