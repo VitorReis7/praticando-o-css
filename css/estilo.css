@@ -27,6 +27,11 @@ body {
 
 .descricao-filme{
   font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.texto-centro{
+  text-align: center;
 }
 
 .imagem-formato {
@@ -39,6 +44,15 @@ body {
 .imagem-catalogo{
   margin:15px;
   height:100px;
+}
+
+.imagem-streamming {
+  height: 50px;
+}
+
+.flex-streamming{
+  display:flex;
+  gap:20px;
 }
 
 #camera {
