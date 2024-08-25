@@ -48,11 +48,11 @@ body {
   height:100px;
 }
 
-.imagem-streamming {
+.imagem-streaming {
   height: 50px;
 }
 
-.flex-streamming{
+.flex-streaming{
   display:flex;
   gap:20px;
 }
