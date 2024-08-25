@@ -78,7 +78,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
 
-  width: 200px;
+  width: fit-content;
   margin: 20px auto;
 
   font-family:Tahoma, sans-serif;
