@@ -35,11 +35,13 @@ body {
   min-height: 100px;
   max-width: 600px;
   max-height: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .imagem-catalogo{
   margin:15px;
   height:100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .imagem-streaming {
@@ -64,6 +66,7 @@ body {
 #camera {
   width: 400px;
   height: 400px;
+  box-shadow: none;
 }
 
 .bloco-imagem{
