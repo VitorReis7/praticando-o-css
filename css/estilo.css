@@ -49,12 +49,17 @@ body {
 }
 
 .imagem-streaming {
+  height: 30px;
+}
+
+#disney-streaming{
   height: 50px;
 }
 
 .flex-streaming{
   display:flex;
   gap:20px;
+  background-color: rgb(255, 255, 255)
 }
 
 #camera {
