@@ -32,6 +32,8 @@ body {
 
 .texto-centro{
   text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .imagem-formato {
