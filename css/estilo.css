@@ -1,174 +1,126 @@
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
+.nome-titulo {
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
-header .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 0 auto;
-}
-
-header h1 {
-  margin: 0;
-}
-
-header ul {
-  list-style: none;
-}
-
-header ul li {
-  display: inline;
-  margin-left: 20px;
-}
-
-header ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-header ul li a:hover {
+.nome-filme {
+  font-size: 45px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
   text-decoration: underline;
+  margin: 50px 0 20px 0;
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
 }
 
-.destaques {
-  background: #f4f4f4;
-  padding: 20px 0;
+.descricao-filme{
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-.destaques .container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.destaque-item {
+.texto-centro{
   text-align: center;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.destaque-item img {
-  max-width: 100%;
-  height: auto;
+.imagem-formato {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 600px;
+  max-height: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.destaque-item .btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
+.imagem-catalogo{
+  margin:15px;
+  height:100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.btn:hover {
-  background-color: #d3d3d3;
-  color: #333;
+.imagem-streaming {
+  height: 30px;
 }
 
-.sobre {
-  padding: 20px 0;
+#disney-streaming{
+  height: 50px;
 }
 
-.sobre .container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.produtos {
-  padding: 20px 0;
-}
-
-.produtos .container {
-  width: 80%;
-  margin: 0 auto;
-  display: block;
-  flex-wrap: wrap;
-}
-
-.produto {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  text-align: center;
-  margin: 30px 0;
-  background-color:#f4f4f4;
-}
-
-.produto img {
-  max-width: 100%;
-  height: auto;
-}
-
-.produto .preco {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.4em;
-  color: #333;
-  background-color: rgb(205, 205, 205);
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 10px;
-  display: inline-block;
-  text-align: center;
-}
-
-.produto .btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
-.meio {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: 30px;
-}
-
-footer {
-  font-family: "Times New Roman";
-  background: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
-}
-
-footer .container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-footer .social-media a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
-footer .social-media a:hover {
-  text-decoration: underline;
-}
-
-.imagem-tamanho {
-  max-width: 350px;
-  max-height: 350px;
-}
-
-.nike-logo{
+.flex-align{
   display:flex;
   align-items:center;
-  gap: 20px;
 }
 
-#nike{
-  fill:white;
-  width:91px;
-  height:33px;
+.flex-streaming{
+  display:flex;
+  gap:20px;
+  background-color: rgba(200, 200, 200, 0.1)
+}
+
+#camera {
+  width: 400px;
+  height: 400px;
+  box-shadow: none;
+}
+
+.bloco-imagem{
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display:block;
+  color: #FFF;
+  background-color: #868686;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+  width: fit-content;
+  margin: 20px auto;
+
+  font-family:Tahoma, sans-serif;
+}
+
+.button:hover {
+  background-color: #FFF;
+  color: #868686;
+  text-decoration: underline;
+}
+
+
+
+.container {
+  margin: 40px;
+  padding: 20px;
+  display: flex;
+  background-color: lightgray;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content{
+  width: 80%;
+  max-width: 1000px;
+  padding: 20px;
+  background-color: #ededed;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+hr {
+  border: 2px dashed gray;
 }
